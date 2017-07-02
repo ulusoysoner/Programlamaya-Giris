@@ -2,13 +2,15 @@
 #include <math.h>
 #include <conio.h>
 
-int main(){
-	printf("birinci kenar: ");
-	int birinci;
-	scanf("%d",&birinci);
-	printf("ikinci kenar: ");
-	int ikinci;
-	scanf("%d",&ikinci);
-	printf("hipotenus: %d",sqrt((birinci*birinci)+(ikinci*ikinci)));
-	getch();
+int main()
+{
+	int a, b, c;
+	printf("birinci kenar : ");
+	scanf("%d",&a);
+	printf("ikinci kenar : ");
+	scanf("%d",&b);
+	
+	c = sqrt((a*a)+(b*b));
+	
+	printf("hipotenus %d dir. ",c);
 }
